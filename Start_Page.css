@@ -1,0 +1,33 @@
+body{
+	background-image: url{"space.png"};
+}
+
+.wrapper{
+	background-color: #3f3f3f;
+	color: #fff;
+	font-family: helvetica, arial, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	flex-direction: right;
+	display: flex;
+	flex-flow: row wrap;
+	flex-basis: 0;
+}
+.header{
+	height: 90%;
+	order: 2;
+}
+.flex_logo{
+	padding: 0px;
+	margin: 0px;
+	order: 1;
+}
+.flex_nav{
+	text-align: left;
+	order: 3;
+}
+.flex-main{
+	order: 4;
+}
+.nav_item_1, .nav_item_2, .nav_item_3, .nav_item_4, .nav_item_5, .nav_item_6{
+}
